@@ -12,15 +12,17 @@ parent(tom, sue). parent(tom, jim).                         % all childern of to
 mother(X,Y) :- female(X), parent(X,Y).
 father(X,Y) :- male(X), parent(X,Y).
 
+is_parent(X, Y, Z) :- parent(X, Z), parent(Y, Z).
+
 sibling(X, Y) :- parent(Z, Y), parent(Z, X).
 sibling2(X, Y) :- mother(Z, Y), mother(Z, X).               % to not get them duplicate, use 1 parent, doesn't work for all half siblings ofc
-sibling3(X, Y) :- mother(Z, Y), mother(Z, X), X \= Y.       % prevent X and Y being the same child
+sibling3(X, Y) :- mother(Z, Y), mother(Z, X), X \= Y.       % prevent X and Y being the same child (fred cant be a sibling of fred anymore)
 
-grandmother(X, Y) :- mother(X, Z), parent(Z, Y).            % X is the mother of unknown Z and Z is the mother of Y making X the grandmother
-grandfather(X, Y) :- father(X, Z), mother(Z, Y).
+grandmother(X, Y) :- mother(X, Z), parent(Z, Y).            % X is the mother of someone Z and Z is the mother of Y making X the grandmother
+grandfather(X, Y) :- father(X, Z), parent(Z, Y).
 
 offspring(X, Y) :- parent(Y, X).                            % X is an offspring of Y
-offspring(X, Y) :- parent(Z, X), offspring(Z, Y).            % go to earlier generations X and check if Y is an offspring of one of them, making X and offspring of Y
+offspring(X, Y) :- parent(Z, X), offspring(Z, Y).           % go to earlier generations X and check if Y is an offspring of one of them, making X and offspring of Y
 
 
 % ------------------------------ 5   Family Operators -----------------------------------
