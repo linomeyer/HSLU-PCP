@@ -17,11 +17,8 @@ solve(Type, Id) :-
     http_get(GetUrl, json(Problem), []),            % fetch problem
     solve_problem(Type, Problem, Solution),          % solve problem
     problem_url(Type, PostUrl),
-    http_post(PostUrl,                               % send solution
-              json(json([id=Id, solution=Solution])),
-              Response, []),
-format("Solution: ~w~nResponse from Problem Provider: ~w~n", % string formatting: ~w = write() and ~n = newline
-           [Solution, Response]).
+    http_post(PostUrl, json(json([id=Id, solution=Solution])), Response, []), % post answer, get response from problem provider
+    format("Solution: ~w~nResponse from Problem Provider: ~w~n", [Solution, Response]). % string formatting: ~w = write() and ~n = newline
 
 
 base_url('http://localhost:16316/problem/').
@@ -36,13 +33,24 @@ problem_url(Type, Id, Url) :-                % use for GET
 
 
 
-% 4b) family relationships - answers as string "true" / "false"
+% 4b) family relationships
 solve_problem(relationship, Problem, Answer) :-
     member(firstPerson=Person1, Problem),
     member(relationship=Relation, Problem),
     member(secondPerson=Person2, Problem),
-    Goal =.. [Relation, Person1, Person2],   % =.. is a univ, it converts the given list to a function with arguments e.g. offspring(fred, jim)
-    ( call(Goal) -> Answer = true ; Answer = false ). % equals if call(offspring(fred, jim)) == true ? then Answer = true else Answer = false
+
+    % equals if call(offspring(fred, jim)) succeeds (matches with a fact) then Answer = true else Answer = false
+    % not declarative :(
+    ( 
+        call(Relation, Person1, Person2) 
+        -> Answer = true 
+        ; Answer = false 
+    ).
+
+relation_answer(Relation, Person1, Person2, true) :-
+    once(call(Relation, Person1, Person2)).
+relation_answer(Relation, Person1, Person2, false) :-
+    \+ call(Relation, Person1, Person2).
 
 % 4c) Sudoku
 solve_problem(sudoku, Problem, Rows) :-
