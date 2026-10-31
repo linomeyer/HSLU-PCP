@@ -30,7 +30,7 @@
       "ADD" (apply-operation + stack)
       "MUL" (apply-operation * stack)
       "SUB" (apply-operation - stack)
-      "DIV" (apply-operation / stack))))
+      "DIV" (apply-operation quot stack))))
 
 (run-command [] "LOAD 1")
 ;; == (1)
