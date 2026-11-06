@@ -21,7 +21,7 @@
 
 ;; c) neue Person hinzufügen
 (defn add-entry [dir name phone]
-  (swap! dir conj {:name name :phone phone})                ; ersetzt den Wert des Atoms durch (conj alter-wert neuer-eintrag)
+  (swap! dir conj {:name name :phone phone})                ; ersetzt den Wert des Atoms durch neuen Vektor mit neuem Eintrag am Ende
   nil)
 
 (look-at my-phone-dir "Anna")                               ; 1234

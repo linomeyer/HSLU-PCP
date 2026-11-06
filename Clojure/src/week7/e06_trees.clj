@@ -54,7 +54,7 @@
   (cond
     (instance? Val expr) [(str "LOAD " (:value expr))]
     (instance? Op expr) (-> (compile-expr (:left expr))     ; zuerst linker Teilbaum
-                            (into (compile-expr (:right expr))) ; dann rechter Teilbaum am Ende anhängen
+                            (into (compile-expr (:right expr))) ; dann rechter Teilbaum anhängen
                             (conj (op-command-map (:op expr)))))) ; zuletzt der Operator wird am Ende angefügt weil Vektor und conj | (Op. * (Val. 2) (Val. 3)) -> LOAD 2 LOAD 3 MUL
 
 (compile-expr expr1)                                        ; => ["LOAD 2" "LOAD 3" "ADD" "LOAD 4" "MUL"]
