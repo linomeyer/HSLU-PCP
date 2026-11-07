@@ -4,54 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034fb681-1e8c-4231-964e-b21149c97632" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Clojure/src/week7/PCP_Uebung-Clojure-3.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_api_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_engine_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_jupiter_junit_jupiter_params_5_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_commons_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_engine_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_junit_platform_junit_platform_launcher_1_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_opentest4j_opentest4j_1_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Stack.main.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/Stack.test.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/checksums/checksums.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/checksums/md5-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/checksums/sha1-checksums.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/9.0.0/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/file-system.probe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/.gradle/vcs-1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/build.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/build/classes/java/main/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/build/classes/java/main/ch/hslu/pcp/stack/Element.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/build/classes/java/main/ch/hslu/pcp/stack/Stack.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/settings.gradle.kts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/src/main/java/ch/hslu/pcp/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/src/main/java/ch/hslu/pcp/stack/Element.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Stack/src/main/java/ch/hslu/pcp/stack/Stack.java" beforeDir="false" />
+    <list default="true" id="034fb681-1e8c-4231-964e-b21149c97632" name="Changes" comment="reset java project">
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e01/Exercise1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e01/GeneralInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e01/SpecificInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e02/NumbersSquared.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e03/TripleIntOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e04/NameProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e05/SeqAndParStreams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e06/Infinity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/GeneralInterface.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +48,17 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -92,11 +67,17 @@
     <commands />
     <urls />
   </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
   "associatedIndex": 5
 }]]></component>
   <component name="ProjectId" id="3LmQ0ipfR1IA8JBnwdfcwS8gq47" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -104,24 +85,107 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Week_8 [:ch.hslu.pcp.week_8.Exercise1.main()].executor": "Run",
+    "Gradle.Week_8 [:ch.hslu.pcp.week_8.e02.NumbersSquared.main()].executor": "Run",
+    "Gradle.Week_8 [:ch.hslu.pcp.week_8.e03.Main.main()].executor": "Run",
+    "Gradle.Week_8 [:ch.hslu.pcp.week_8.e04.NameProcessor.main()].executor": "Run",
+    "Gradle.Week_8 [:ch.hslu.pcp.week_8.e05.SeqAndParStreams.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "actions.on.save",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecapSpentCounter">
+    <option name="endsOfQuotaMs" value="1795946418569" />
+  </component>
+  <component name="RecapUselessUpdatesCounter">
+    <option name="suspendCountdown" value="9" />
+  </component>
+  <component name="RunManager" selected="Application.SeqAndParStreams">
+    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e01.Exercise1" />
+      <module name="Week_8.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.pcp.week_8.e01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e03.Main" />
+      <module name="Week_8.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.pcp.week_8.e03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e04.NameProcessor" />
+      <module name="Week_8.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.pcp.week_8.e04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumbersSquared" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e02.NumbersSquared" />
+      <module name="Week_8.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.pcp.week_8.e02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeqAndParStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e05.SeqAndParStreams" />
+      <module name="Week_8.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ch.hslu.pcp.week_8.e05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -150,6 +214,15 @@
       <setting name="urlFile" value="" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SeqAndParStreams" />
+        <item itemvalue="Application.NameProcessor" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.NumbersSquared" />
+        <item itemvalue="Application.Exercise1" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -166,11 +239,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794056542956</updated>
-      <workItem from="1794056545298" duration="67000" />
+      <workItem from="1794056545298" duration="4034000" />
     </task>
+    <task id="LOCAL-00001" summary="reset java project">
+      <option name="closed" value="true" />
+      <created>1794056786544</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794056786544</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reset java project" />
+    <option name="LAST_COMMIT_MESSAGE" value="reset java project" />
   </component>
 </project>
