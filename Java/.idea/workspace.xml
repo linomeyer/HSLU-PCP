@@ -4,18 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="034fb681-1e8c-4231-964e-b21149c97632" name="Changes" comment="reset java project">
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e01/Exercise1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e01/GeneralInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e01/SpecificInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e02/NumbersSquared.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e03/TripleIntOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e04/NameProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e05/SeqAndParStreams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/e06/Infinity.java" afterDir="false" />
+    <list default="true" id="034fb681-1e8c-4231-964e-b21149c97632" name="Changes" comment="add exercised for week 8">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Week_9.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/Week_9.test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_9/src/main/java/ch/hslu/pcp/week_9/e02/StreamCompareAndJoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Week_9/src/main/java/ch/hslu/pcp/week_9/e03/CompFuture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week_8/src/main/java/ch/hslu/pcp/week_8/GeneralInterface.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,11 +22,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="1" />
+    <option name="cachedIndexableFilesCount" value="34" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/Week_8">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/Week_9">
       <ProjectState />
     </projectState>
   </component>
@@ -62,7 +64,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/Week_8" gradleHome="C:\Users\Lino\.gradle\wrapper\dists\gradle-9.0.0-bin\d6wjpkvcgsg3oed0qlfss3wgl\gradle-9.0.0" javaHome="C:\Users\Lino\.jdks\openjdk-25.0.2" gradleVersion="9.0.0" />
+  <component name="GradleScriptDefinitionsStorage" workingDir="$PROJECT_DIR$/Week_9" gradleHome="C:\Users\Lino\.gradle\wrapper\dists\gradle-9.0.0-bin\d6wjpkvcgsg3oed0qlfss3wgl\gradle-9.0.0" javaHome="C:\Users\Lino\.jdks\openjdk-25.0.2" gradleVersion="9.0.0" />
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
@@ -70,10 +72,10 @@
   <component name="OptimizeOnSaveOptions">
     <option name="myRunOnSave" value="true" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="3LmQ0ipfR1IA8JBnwdfcwS8gq47" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -90,6 +92,8 @@
     "Gradle.Week_8 [:ch.hslu.pcp.week_8.e03.Main.main()].executor": "Run",
     "Gradle.Week_8 [:ch.hslu.pcp.week_8.e04.NameProcessor.main()].executor": "Run",
     "Gradle.Week_8 [:ch.hslu.pcp.week_8.e05.SeqAndParStreams.main()].executor": "Run",
+    "Gradle.Week_9 [:ch.hslu.pcp.week_9.e02.StreamCompareAndJoin.main()].executor": "Run",
+    "Gradle.Week_9 [:ch.hslu.pcp.week_9.e03.CompFuture.main()].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -99,8 +103,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/workspace/hslu/7/PCP/Java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,15 +124,15 @@
     <option name="endsOfQuotaMs" value="1795946418569" />
   </component>
   <component name="RecapUselessUpdatesCounter">
-    <option name="suspendCountdown" value="9" />
+    <option name="suspendCountdown" value="8" />
   </component>
-  <component name="RunManager" selected="Application.SeqAndParStreams">
-    <configuration name="Exercise1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e01.Exercise1" />
-      <module name="Week_8.main" />
+  <component name="RunManager" selected="Application.CompFuture">
+    <configuration name="CompFuture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_9.e03.CompFuture" />
+      <module name="Week_9.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch.hslu.pcp.week_8.e01.*" />
+          <option name="PATTERN" value="ch.hslu.pcp.week_9.e03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumbersSquared" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e02.NumbersSquared" />
+    <configuration name="SeqAndParStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e05.SeqAndParStreams" />
       <module name="Week_8.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch.hslu.pcp.week_8.e02.*" />
+          <option name="PATTERN" value="ch.hslu.pcp.week_8.e05.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeqAndParStreams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_8.e05.SeqAndParStreams" />
-      <module name="Week_8.main" />
+    <configuration name="StreamCompareAndJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ch.hslu.pcp.week_9.e02.StreamCompareAndJoin" />
+      <module name="Week_9.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ch.hslu.pcp.week_8.e05.*" />
+          <option name="PATTERN" value="ch.hslu.pcp.week_9.e02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,6 +204,9 @@
       </method>
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
@@ -216,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CompFuture" />
+        <item itemvalue="Application.StreamCompareAndJoin" />
         <item itemvalue="Application.SeqAndParStreams" />
         <item itemvalue="Application.NameProcessor" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.NumbersSquared" />
-        <item itemvalue="Application.Exercise1" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +248,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794056542956</updated>
-      <workItem from="1794056545298" duration="4034000" />
+      <workItem from="1794056545298" duration="4096000" />
+      <workItem from="1794091113910" duration="596000" />
+      <workItem from="1794130909477" duration="39000" />
+      <workItem from="1794658602351" duration="1513000" />
     </task>
     <task id="LOCAL-00001" summary="reset java project">
       <option name="closed" value="true" />
@@ -249,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794056786544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add exercised for week 8">
+      <option name="closed" value="true" />
+      <created>1794060652820</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794060652820</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add exercised for week 8">
+      <option name="closed" value="true" />
+      <created>1794060671813</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1794060671813</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,6 +285,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="reset java project" />
-    <option name="LAST_COMMIT_MESSAGE" value="reset java project" />
+    <MESSAGE value="add exercised for week 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exercised for week 8" />
   </component>
 </project>

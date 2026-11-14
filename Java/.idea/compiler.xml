@@ -5,6 +5,9 @@
       <module name="Week_8" target="25" />
       <module name="Week_8.main" target="25" />
       <module name="Week_8.test" target="25" />
+      <module name="Week_9" target="25" />
+      <module name="Week_9.main" target="25" />
+      <module name="Week_9.test" target="25" />
     </bytecodeTargetLevel>
   </component>
 </project>
